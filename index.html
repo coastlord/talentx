@@ -6,103 +6,83 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TalentX</title>
-
-<link rel="icon" type="image/png" href="/favicon.png">
-
-<!-- LinkedIn / Social preview -->
-
-<meta property="og:title" content="TalentX – Compliance Talent Marketplace">
-<meta property="og:description" content="A platform where AML, KYC, Risk, and Compliance professionals get discovered by companies hiring across Singapore and Malaysia.">
-<meta property="og:image" content="https://talentxmarket.com/og-image.png">
-<meta property="og:url" content="https://talentxmarket.com">
-<meta property="og:type" content="website">
+<title>TalentX | Compliance Talent Marketplace</title>
 
 <style>
 
 body{
 margin:0;
-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-background:#000;
-color:#fff;
+font-family:Arial, Helvetica, sans-serif;
+background:black;
+color:white;
 }
 
 .container{
-max-width:850px;
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+max-width:1200px;
 margin:auto;
-padding:140px 20px;
+padding:20px;
+}
+
+.right{
+flex:2;
 text-align:center;
+padding:20px;
 }
 
-h1{
-font-size:56px;
-margin-bottom:10px;
-letter-spacing:-1px;
+.logo-top{
+width:220px;
+margin-bottom:20px;
+filter: brightness(0) invert(1);
 }
 
-.tagline{
-font-size:20px;
-margin-bottom:40px;
+.subtitle{
 color:#ccc;
+margin-bottom:30px;
 }
 
 .highlight{
-font-size:28px;
-font-weight:bold;
-border:2px solid #fff;
+border:2px solid white;
 display:inline-block;
 padding:12px 20px;
-margin-bottom:40px;
+margin:20px 0;
+font-weight:bold;
 }
 
 .description{
-font-size:18px;
-line-height:1.7;
-max-width:700px;
+color:#ccc;
+max-width:600px;
 margin:auto;
-margin-bottom:50px;
-color:#e5e5e5;
+line-height:1.6;
 }
 
-.button{
-display:inline-block;
-padding:16px 32px;
-font-size:18px;
+button{
+margin-top:30px;
+padding:15px 30px;
+font-size:16px;
+border:none;
+background:white;
+color:black;
 font-weight:bold;
-text-decoration:none;
-background:#fff;
-color:#000;
+cursor:pointer;
 border-radius:4px;
-transition:0.2s;
 }
 
-.button:hover{
-background:#e5e5e5;
+button:hover{
+background:#ddd;
 }
 
-.consent{
-margin-top:20px;
-color:#888;
+.footer{
+margin-top:40px;
+color:#777;
 font-size:14px;
 }
 
-.consent a{
+a{
 color:#aaa;
-}
-
-footer{
-margin-top:80px;
-font-size:14px;
-color:#888;
-}
-
-footer a{
-color:#888;
-text-decoration:none;
-}
-
-footer a:hover{
-text-decoration:underline;
 }
 
 </style>
@@ -113,9 +93,11 @@ text-decoration:underline;
 
 <div class="container">
 
-<h1>TalentX</h1>
+<div class="right">
 
-<div class="tagline">
+<img class="logo-top" src="Official_Logo-removebg-preview.png">
+
+<div class="subtitle">
 Where compliance professionals get discovered
 </div>
 
@@ -123,9 +105,9 @@ Where compliance professionals get discovered
 Secure Interviews in 48 Hours.
 </div>
 
-<div class="description">
+<p class="description">
 
-A platform built for <b>AML, KYC, Risk, and Compliance professionals</b>.
+A platform built for <b>AML, KYC, Risk, and Compliance professionals.</b>
 
 <br><br>
 
@@ -133,28 +115,30 @@ TalentX makes it easy for professionals across <b>Singapore and Malaysia</b> to 
 
 <br><br>
 
-Join the early waitlist and be among the <b>first professionals featured on the platform</b>.
+Join the early waitlist and be among the <b>first professionals featured on the platform.</b>
 
-</div>
+</p>
 
-<a class="button" href="https://tally.so/r/D4VGWb" target="_blank">
+<button onclick="window.location.href='https://tally.so/r/YOURFORM'">
+
 Join the TalentX Waitlist
-</a>
 
-<div class="consent">
+</button>
+
+<div class="footer">
+
+<p>
 By submitting this form, you agree to the
 <a href="privacy.html">TalentX Privacy Policy</a>.
-</div>
+</p>
 
-<footer>
-
-© 2026 TalentX
-
-<br><br>
+<p>© 2026 TalentX</p>
 
 <a href="privacy.html">Privacy Policy</a>
 
-</footer>
+</div>
+
+</div>
 
 </div>
 

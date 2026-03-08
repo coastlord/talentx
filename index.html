@@ -2,80 +2,87 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TalentX – Compliance Talent Marketplace</title>
-
-<link rel="icon" href="favicon.png">
+<title>TalentX | Compliance Talent Marketplace</title>
 
 <style>
 
 body{
-font-family: Arial, Helvetica, sans-serif;
 margin:0;
-background:#f7f7f7;
-color:#111;
-text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+background:black;
+color:white;
 }
 
 .container{
-max-width:900px;
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+max-width:1200px;
 margin:auto;
-padding:60px 20px;
+padding:20px;
+}
+
+.right{
+flex:2;
+text-align:center;
+padding:20px;
 }
 
 .logo-top{
-height:80px;
+width:220px;
 margin-bottom:20px;
+filter: brightness(0) invert(1);
 }
 
-h1{
-font-size:42px;
-margin-bottom:10px;
-}
-
-h2{
-font-size:22px;
-font-weight:normal;
-color:#444;
+.subtitle{
+color:#ccc;
 margin-bottom:30px;
 }
 
-p{
-font-size:18px;
+.highlight{
+border:2px solid white;
+display:inline-block;
+padding:12px 20px;
+margin:20px 0;
+font-weight:bold;
+}
+
+.description{
+color:#ccc;
+max-width:600px;
+margin:auto;
 line-height:1.6;
-color:#555;
-margin-bottom:30px;
 }
 
 button{
-background:#111827;
-color:white;
+margin-top:30px;
+padding:15px 30px;
+font-size:16px;
 border:none;
-padding:16px 34px;
-font-size:18px;
-border-radius:8px;
+background:white;
+color:black;
+font-weight:bold;
 cursor:pointer;
+border-radius:4px;
 }
 
 button:hover{
-background:#000;
+background:#ddd;
 }
 
-footer{
-margin-top:60px;
+.footer{
+margin-top:40px;
+color:#777;
 font-size:14px;
-color:#777;
 }
 
-footer a{
-color:#777;
-text-decoration:none;
-}
-
-footer a:hover{
-text-decoration:underline;
+a{
+color:#aaa;
 }
 
 </style>
@@ -86,35 +93,54 @@ text-decoration:underline;
 
 <div class="container">
 
+<div class="right">
+
 <img class="logo-top" src="Official_Logo-removebg-preview.png" alt="TalentX Logo">
 
-<h1>TalentX</h1>
+<div class="subtitle">
+Where compliance professionals get discovered
+</div>
 
-<h2>Verified AML, KYC & Compliance Talent</h2>
+<div class="highlight">
+Secure Interviews in 48 Hours.
+</div>
 
-<p>
-TalentX connects vetted AML, KYC, Risk and Compliance professionals
-with hiring companies across Malaysia and Singapore.
-</p>
+<p class="description">
 
-<a href="https://tally.so/r/D4VGWb" target="_blank">
-<button>Join the Waitlist</button>
-</a>
-
-<footer>
+A platform built for <b>AML, KYC, Risk, and Compliance professionals.</b>
 
 <br><br>
+
+TalentX makes it easy for professionals across <b>Singapore and Malaysia</b> to create a profile, get listed, and attract opportunities from companies actively hiring compliance talent.
+
+<br><br>
+
+Join the early waitlist and be among the <b>first professionals featured on the platform.</b>
+
+</p>
+
+<button onclick="window.location.href='https://tally.so/r/YOURFORM'">
+
+Join the TalentX Waitlist
+
+</button>
+
+<div class="footer">
+
+<p>
+By submitting this form, you agree to the
+<a href="privacy.html">TalentX Privacy Policy</a>.
+</p>
+
+<p>© 2026 TalentX</p>
 
 <a href="privacy.html">Privacy Policy</a>
 
-<br><br>
+</div>
 
-© 2026 TalentX
-
-</footer>
+</div>
 
 </div>
 
 </body>
-
 </html>

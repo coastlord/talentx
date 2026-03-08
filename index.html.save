@@ -83,10 +83,6 @@ font-size:14px;
 
 a{
 color:#aaa;
-}
-
-</style>
-
 </head>
 
 <body>
@@ -95,7 +91,7 @@ color:#aaa;
 
 <div class="right">
 
-<img class="logo-top" src="Official_Logo-removebg-preview.png" alt="TalentX Logo">
+<img class="logo-top" src="Official_Logo-removebg-preview.png">
 
 <div class="subtitle">
 Where compliance professionals get discovered

@@ -6,14 +6,15 @@ margin:0;
 background:#f3f2ef;
 color:#1d2226;
 line-height:1.6;
+}
 
-/* NAVBAR — ULTRA COMPACT */
+/* NAVBAR — THIN HEADER */
 
 .navbar{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:2px 14px;
+padding:6px 20px;
 background:#0a66c2;
 }
 
@@ -21,7 +22,7 @@ background:#0a66c2;
 
 .brand{
 color:white;
-font-size:12px;
+font-size:14px;
 font-weight:700;
 }
 
@@ -29,7 +30,7 @@ font-weight:700;
 
 nav{
 display:flex;
-gap:4px;
+gap:12px;
 }
 
 /* NAV BUTTONS */
@@ -37,9 +38,9 @@ gap:4px;
 nav a{
 text-decoration:none;
 color:white;
-padding:2px 6px;
-border-radius:4px;
-font-size:10px;
+padding:6px 14px;
+border-radius:6px;
+font-size:14px;
 background:rgba(255,255,255,0.15);
 transition:all 0.2s ease;
 }
@@ -61,22 +62,22 @@ text-align:center;
 /* HERO */
 
 .hero{
-padding:80px 20px;
+padding:60px 20px;
 background:#ffffff;
 }
 
-/* LARGE BLUE HERO LOGO */
+/* HERO LOGO */
 
 .hero-logo-blue{
-width:300px;
+width:140px;
 max-width:90%;
-margin-bottom:20px;
+margin-bottom:10px;
 }
 
 /* HERO TEXT */
 
 .hero h1{
-font-size:40px;
+font-size:38px;
 margin-bottom:10px;
 }
 
@@ -91,7 +92,7 @@ opacity:0.8;
 .btn{
 display:inline-block;
 margin-top:20px;
-padding:12px 28px;
+padding:12px 26px;
 background:#0a66c2;
 color:white;
 border-radius:6px;
@@ -102,6 +103,25 @@ transition:0.2s;
 
 .btn:hover{
 background:#004182;
+}
+
+/* JOBS SECTION */
+
+.jobs{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* JOB CARD */
+
+.job-card{
+background:white;
+border:1px solid #ddd;
+border-radius:8px;
+padding:20px;
+margin-bottom:20px;
+text-align:left;
 }
 
 /* FOOTER */
@@ -127,7 +147,7 @@ text-decoration:underline;
 @media (max-width:768px){
 
 .hero-logo-blue{
-width:200px;
+width:100px;
 }
 
 .hero h1{
@@ -135,7 +155,12 @@ font-size:28px;
 }
 
 .navbar{
-padding:16px 20px;
+padding:8px 12px;
+}
+
+nav a{
+padding:6px 10px;
+font-size:13px;
 }
 
 }

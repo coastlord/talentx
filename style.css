@@ -6,23 +6,22 @@ margin:0;
 background:#f3f2ef;
 color:#1d2226;
 line-height:1.6;
-}
 
-/* NAVBAR (SMALLER HEADER) */
+/* NAVBAR — ULTRA COMPACT */
 
 .navbar{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:6px 20px;
+padding:2px 14px;
 background:#0a66c2;
 }
 
-/* BRAND (TOP LEFT TalentX) */
+/* TALENTX LOGO TEXT */
 
 .brand{
 color:white;
-font-size:16px;
+font-size:12px;
 font-weight:700;
 }
 
@@ -30,36 +29,17 @@ font-weight:700;
 
 nav{
 display:flex;
-gap:8px;
+gap:4px;
 }
+
+/* NAV BUTTONS */
 
 nav a{
 text-decoration:none;
 color:white;
-padding:4px 10px;
-border-radius:6px;
-font-size:12px;
-background:rgba(255,255,255,0.15);
-transition:all 0.2s ease;
-}
-
-nav a:hover{
-background:white;
-color:#0a66c2;
-}
-/* NAVIGATION */
-
-nav{
-display:flex;
-gap:12px;
-}
-
-nav a{
-text-decoration:none;
-color:white;
-padding:8px 16px;
-border-radius:6px;
-font-size:14px;
+padding:2px 6px;
+border-radius:4px;
+font-size:10px;
 background:rgba(255,255,255,0.15);
 transition:all 0.2s ease;
 }

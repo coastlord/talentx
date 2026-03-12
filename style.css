@@ -8,13 +8,13 @@ color:#1d2226;
 line-height:1.6;
 }
 
-/* NAVBAR */
+/* NAVBAR (SMALLER HEADER) */
 
 .navbar{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 40px;
+padding:6px 20px;
 background:#0a66c2;
 }
 
@@ -22,10 +22,31 @@ background:#0a66c2;
 
 .brand{
 color:white;
-font-size:22px;
+font-size:16px;
 font-weight:700;
 }
 
+/* NAVIGATION */
+
+nav{
+display:flex;
+gap:8px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+padding:4px 10px;
+border-radius:6px;
+font-size:12px;
+background:rgba(255,255,255,0.15);
+transition:all 0.2s ease;
+}
+
+nav a:hover{
+background:white;
+color:#0a66c2;
+}
 /* NAVIGATION */
 
 nav{

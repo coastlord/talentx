@@ -53,7 +53,10 @@ color:black;
 }
 
 /* Hero */
-
+.hero-logo{
+height:70px;
+margin-bottom:30px;
+}
 .hero{
 padding:120px 20px;
 text-align:center;

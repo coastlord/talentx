@@ -159,7 +159,7 @@ padding:6px 12px;
 
 }
 
-/* DESKTOP DARK BLUE BACKGROUND */
+/* DESKTOP ADJUSTMENTS */
 
 @media (min-width:769px){
 
@@ -171,27 +171,30 @@ background:#0a1a3a;
 background:#0a1a3a;
 }
 
-/* TIGHTER HERO SPACING */
-
-.hero{
-padding:80px 20px;
-}
+/* SMALLER LOGO */
 
 .hero-logo{
-margin-bottom:20px;
+width:300px;
+margin-bottom:12px;
+}
+
+/* TIGHTER TEXT SPACING */
+
+.hero{
+padding:60px 20px;
 }
 
 .hero h1{
-margin-bottom:12px;
+margin-bottom:8px;
 }
 
 .hero p{
 margin-top:0;
-margin-bottom:18px;
+margin-bottom:10px;
 }
 
 .btn{
-margin-top:15px;
+margin-top:8px;
 }
 
 }

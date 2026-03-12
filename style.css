@@ -8,35 +8,32 @@ color:#1d2226;
 line-height:1.6;
 }
 
-/* CONTAINER */
-
-.container{
-max-width:900px;
-margin:0 auto;
-padding:40px 20px;
-text-align:center;
-}
-
 /* NAVBAR */
 
 .navbar{
 display:flex;
-justify-content:center;
+justify-content:space-between;
 align-items:center;
-padding:18px;
+padding:18px 40px;
 background:#0a66c2;
+}
+
+/* BRAND (TOP LEFT TalentX) */
+
+.brand{
+color:white;
+font-size:22px;
+font-weight:700;
 }
 
 /* NAVIGATION */
 
 nav{
 display:flex;
-justify-content:center;
-flex-wrap:wrap;
+gap:12px;
 }
 
 nav a{
-margin:6px 10px;
 text-decoration:none;
 color:white;
 padding:8px 16px;
@@ -51,20 +48,28 @@ background:white;
 color:#0a66c2;
 }
 
-/* HERO SECTION */
+/* CONTAINER */
+
+.container{
+max-width:900px;
+margin:0 auto;
+padding:40px 20px;
+text-align:center;
+}
+
+/* HERO */
 
 .hero{
 padding:80px 20px;
 background:#ffffff;
 }
 
-/* HERO LOGO */
+/* LARGE BLUE HERO LOGO */
 
-.hero-logo{
+.hero-logo-blue{
 width:300px;
 max-width:90%;
 margin-bottom:20px;
-filter: brightness(0) invert(1);
 }
 
 /* HERO TEXT */
@@ -98,12 +103,6 @@ transition:0.2s;
 background:#004182;
 }
 
-/* ABOUT SECTION */
-
-.container h2{
-margin-top:20px;
-}
-
 /* FOOTER */
 
 footer{
@@ -126,7 +125,7 @@ text-decoration:underline;
 
 @media (max-width:768px){
 
-.hero-logo{
+.hero-logo-blue{
 width:200px;
 }
 
@@ -134,9 +133,8 @@ width:200px;
 font-size:28px;
 }
 
-nav a{
-font-size:13px;
-padding:6px 12px;
+.navbar{
+padding:16px 20px;
 }
 
 }

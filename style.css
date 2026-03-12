@@ -121,7 +121,7 @@ footer a:hover{
 text-decoration:underline;
 }
 
-/* MOBILE FIX */
+/* MOBILE */
 
 @media (max-width:768px){
 
@@ -155,6 +155,20 @@ justify-content:center;
 nav a{
 font-size:13px;
 padding:6px 12px;
+}
+
+}
+
+/* DESKTOP DARK BLUE BACKGROUND */
+
+@media (min-width:769px){
+
+body{
+background:#0a1a3a;
+}
+
+.navbar{
+background:#0a1a3a;
 }
 
 }

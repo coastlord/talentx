@@ -171,4 +171,27 @@ background:#0a1a3a;
 background:#0a1a3a;
 }
 
+/* TIGHTER HERO SPACING */
+
+.hero{
+padding:80px 20px;
+}
+
+.hero-logo{
+margin-bottom:20px;
+}
+
+.hero h1{
+margin-bottom:12px;
+}
+
+.hero p{
+margin-top:0;
+margin-bottom:18px;
+}
+
+.btn{
+margin-top:15px;
+}
+
 }

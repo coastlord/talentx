@@ -53,11 +53,11 @@ padding:120px 20px;
 text-align:center;
 }
 
-/* HERO LOGO */
+/* HERO LOGO — 3X BIGGER */
 
 .hero-logo{
-width:220px;
-margin-bottom:40px;
+width:600px;
+margin-bottom:50px;
 filter: brightness(0) saturate(100%) invert(100%);
 }
 
